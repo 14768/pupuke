@@ -1,0 +1,166 @@
+<!doctype html>
+<html>
+  <head>
+     <title>Pupuke House</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+<header>
+   <div id="navigation">    
+<div id="logo" width="100%" height="auto" href="index.html"></div>              
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn"></button>
+  <div id="myDropdown" class="dropdown-content">
+   <ul class="navigation_ul" >
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="academic.html">Academic</a></li>
+    <li><a href="sport.html">Sport</a></li>
+    <li><a href="contact.html">Contact us</a></li>
+   </ul>
+  </div>
+</div>
+     </div>
+                       
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>     
+</header>
+    
+    <body>
+    <div class="main_image">
+    <img src="images/jump4.gif" style="width: 100%;" title="house prefect" alt="house prefect" >
+        </div>
+ <!--notice, sologan, bluebox-->  
+
+        <div id="blueBox">
+    
+			<div class="container">
+	<h1 class="intro-lead">Athletic Day!</h1>
+						<p class="">Take part in and have fun!
+                            <p>GAIN HOUSE POINT!
+    
+                        
+					</div>
+				</div>
+
+    <div class="title">
+        
+<!--start of main part of the page - video in athletic day & sport result-->
+    <h1>Sports</h1>
+        </div>
+    
+    <section>
+<div id="sport_section1"> 
+    
+<video width="100%" controls="controls" autoplay="autoplay">
+ <source src="images/chanting.m4v" type="video/mp4" />
+</video>
+    
+ </div><aside id="sport_result">
+     
+    <h2> Sports Results</h2>
+<ul>
+<li><strong>9 Aug 2017</strong> 
+<p> In late July, Alyssa Tagle (Year 13) and Tamara Otene (Year 11) competed in a number of high level badminton events. From their outstanding results, both have been selected for the New Zealand U-19 Badminton team to compete at the World U-19 Badminton Champs to be held in Indonesia later this year. Both students represented North Harbour in the New Zealand U-17 and U-19 age group Badminton Champs and won gold medals. They then both competed in the New Zealand Women’s Open Division 2 Badminton Champs where they also won gold medals.
+</p></li>
+<li><strong>9 Aug 2017</strong> 
+<p>At the Auckland College Sport Individual Swimming Championships held in early August, two students came away with a number of medals. Jelani Wetzell (Year 10) won the following in the Girls 13 and Under Age group: 50m Freestyle (Gold), 50m Backstroke (Silver), 100m Freestyle (Silver). Chloe Seaman (Year 9) won the following in the Girls 13 and Under Age group: 50m Backstroke (Gold), 100m Backstroke (Gold), 50m Freestyle (Silver), 100m Medley (Silver).
+</p></li>
+<li> <strong>5 Jul 2017</strong> 
+<p>Sophie Egnot-Johnson (Year 12) was part of the New Zealand under-21 Rowing Team that competed at the Under-21 Trans-Tasman Rowing Regatta held in Australia at the beginning of July. Sophie had an extremely successful regatta winning 3 Gold medals. They were gained in the Lightweight Single Sculls, Mixed Lightweight Double Sculls and Mixed Quad Sculls. Sophie was the only New Zealand rower to win all of their races.
+        </p></li>
+        
+    
+    
+    
+    
+    
+        </ul>
+     
+       
+     
+ </aside>       
+</section>
+ <!-- Slideshow -->       
+ <div id="section2">
+     
+<h2>Gallery</h2>
+
+<div class="slideshow">
+  <img class="mySlides" src="images/athletic1.gif" style="width:100%">
+  <img class="mySlides" src="images/athletic2.gif" style="width:100%">
+  <img class="mySlides" src="images/athletic3.gif" style="width:100%">
+  <img class="mySlides" src="images/athletic4.gif" style="width:100%">    
+  <img class="mySlides" src="images/athletic5.gif" style="width:100%">
+  <button class="display_left button" onclick="plusDivs(-1)">&#10094;</button>
+  <button class="display_right button" onclick="plusDivs(1)">&#10095;</button>
+</div>
+<br>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+        </div>
+
+    </body>
+        <footer id="footer">
+         
+         <div class="address"><p>2 Wairau Rd, Takapuna, Auckland 0627 <br>09-489-4168</div>
+         
+         <div class="leader">Leadership is an action</div>
+     	<p id="name">&copy; 2017 Coco Ye</p>
+        
+     </footer>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        

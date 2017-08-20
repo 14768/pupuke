@@ -1,0 +1,158 @@
+<!doctype html>
+<html>
+  <head>
+     <title>Pupuke House</title>
+     <meta charset="utf-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+  </head>
+<header>
+   <div id="navigation">    
+<div id="logo" width="100%" height="auto" href="index.html"></div>              
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn"></button>
+  <div id="myDropdown" class="dropdown-content">
+   <ul class="navigation_ul" >
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="academic.html">Academic</a></li>
+    <li><a href="sport.html">Sport</a></li>
+    <li><a href="contact.html">Contact us</a></li>
+   </ul>
+  </div>
+</div>
+     </div>
+                       
+<script>
+/* When the user clicks on the button, 
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+    document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>     
+</header>
+    
+    
+    
+    
+    
+    
+    
+    
+    <body>
+        <div class="main_image">
+    <img src="images/lake5.png" style="width: 100%;" title="house prefect" alt="house prefect" >
+        </div>
+ <!--notice, sologan, bluebox-->  
+
+        <div id="blueBox">
+    
+			<div class="container">
+				
+						<h1 class="intro-lead">Welcome to Pupuke House!</h1><br>
+			
+                           <p class=""> we are from the big blue lake
+                    <p><a href="about.html">Join the student council →</a>
+                        
+					</div>
+				</div>
+<!--Begin of content, Section -->
+        <div class="home_section1">
+      <div class="section1_left">
+     <h2>Commitee</h2>
+  <p>We are the pupuke house prefects, we are dedicating to help you to achive your personal goal, learning experience. Be a part of us, you will learn from that.      
+</div>
+ <div class="section1_right">
+    <img src="images/prefect3.png" width="100%"> 
+      </div>  
+       </div>
+        
+<div class="home_section2">
+       <div class="section2_left">
+         <a href="academic.html">
+           <div class="processMark"></div>
+             <h1>Study with us!</h1>
+             <p>Discover your potential
+             <h4>→</h4>
+           </a>
+       </div>
+    
+       <div class="section2_right">
+        <a href="contact.html">
+         <div class="processMark2"></div>
+          <h1>Contact with us</h1>
+           <p>Find out what you like to be
+           <h4>→</h4>
+         </a>
+        </div>
+     </div>
+        
+        
+  <div class="home_section3">
+        <div class="section3_left">
+            <h2>House badge</h2>
+  <p>   Here are the house bages, which consist of a swan and its backgrond color is Pupuke blue. We should wear it on our blazers. As it indicates that you are a Pupuke people, and we should all be pround of being a part of Pupuke family.
+      
+      </div>
+      <div class="section3_right">
+          <img src="images/house%20badges3.png" width="100%"> 
+      </div>  
+ </div>
+         
+   <div class="home_section4">
+       <div class="section4_left">
+      <video controls="controls" class="home_video">
+       <source src="images/chanting.m4v" type="video/mp4" />
+        </video>
+           </div>
+       <div class="bluebox3 section4_right"> 
+       <a href="sport.html">
+       <div class="blackProcessMark"></div>   
+          <div class="whiteProcessMark"></div>
+           <h1>Play with us!</h1>
+             <p>Go and have a try!
+               <h4>→</h4></a>
+           
+           </div>
+         </div>
+    </body>
+    
+    <footer id="footer">
+         
+         <div class="address"><p>2 Wairau Rd, Takapuna, Auckland 0627 <br>09-489-4168</div>
+         
+         <div class="leader">Leadership is an action</div>
+     	<p id="name">&copy; 2017 Coco Ye</p>
+        
+     </footer>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    
