@@ -988,9 +988,16 @@ float: left;
     }
     .section2_left{
     margin-top: -1%;
+    display: inline-block;
+        position: relative;
+      
+box-sizing: border-box;
     }
         .section2_right{
         z-index: -2;
+        display: inline-block;
+              position: relative;
+            box-sizing: border-box;
         }
     .home_section3{
          margin-top: -2%;
