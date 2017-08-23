@@ -297,7 +297,7 @@ box-sizing: border-box;
     width: 90%;
     margin-left: 5%;
     height: auto;
-    background-color: #e0e0e0;
+    background-color: #eaeaea;
     position:relative;
     margin-top: -0.5%;
     padding: 3%;
@@ -340,7 +340,7 @@ color: #fff;
 .bluebox3 .blackProcessMark{
     width: 4px;
     height: 40px;
-    background-color: #bcbcbd;
+    background-color: #cccccc;
     margin-left: -12%;
     content: "";  
     
@@ -955,6 +955,7 @@ float: left;
     
     #blueBox{
         width: 35%;
+        margin-left: 58%;
     }  
     
     
@@ -1362,7 +1363,7 @@ width: 100%;
    width: 100%;
    } 
     #section2{
- background-color:#dfdfdf;
+ background-color:#eaeaea;
             float: left;
             width: 100%;
             height: auto;
