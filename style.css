@@ -156,7 +156,19 @@ a{
    
 }
 /*Home*/
-
+   .section1_left{
+        padding-bottom: 0;
+    }
+    .section2_left{
+    margin-top: -1%;
+    }
+        .section2_right{
+        z-index: -2;
+        }
+    .home_section3{
+         margin-top: -2%;
+        z-index: -1;
+    }
 .whiteProcessMark {
     width: 50px;
     height: 4px;
@@ -185,6 +197,7 @@ position: inherit;
 float: left;
 box-sizing:border-box;
 padding: 3%;
+
 }
 .section1_right{
     display: inline-block;
@@ -969,7 +982,20 @@ float: left;
  margin-top: -140px;
  }   
 
-
+/*Home*/
+    .section1_left{
+        padding-bottom: 0;
+    }
+    .section2_left{
+    margin-top: -1%;
+    }
+        .section2_right{
+        z-index: -2;
+        }
+    .home_section3{
+         margin-top: -2%;
+        z-index: -1;
+    }
 }
 /*End of laptop*/
 
@@ -1088,11 +1114,11 @@ ul:before {
 
 #blueBox h1{
     color: #fff;
-    font-size: 20px;
+    font-size: 26px;
 }
-    #blueBox {
+    #blueBox p {
         color: #fff;
-        font-size: 13px;
+        font-size: 16px;
     }
 h1{
     color: #234090;
@@ -1239,9 +1265,8 @@ a{
   
 }
   
-    /jahsghdgkjhkjaskjdsahsjahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsaahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsaahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsajahsghdgkjhkjaskjdsahsaa/
     
-    /*home specific*/
+/*home specific*/
     
 .home_section1{
 margin-left: 0%;
