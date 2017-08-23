@@ -406,9 +406,7 @@ width: 35%;
     font-size: 26px;
 
 }
-section{
-background-color: #fff;
-}
+
 #aca_section1{
    width: 65%;
     padding: 3%;
@@ -607,7 +605,7 @@ aside{
 width: 40%;}
 /*end of contact*/
 
-  footer{
+  #footer{
        
             float: right;
             width: 100%;
@@ -967,8 +965,8 @@ float: left;
     
     
     #blueBox{
-        width: 35%;
-        margin-left: 58%;
+        width: 45%;
+        margin-left: 48%;
     }  
     
     
@@ -986,21 +984,36 @@ float: left;
     .section1_left{
         padding-bottom: 0;
     }
-    .section2_left{
-    margin-top: -1%;
-    display: inline-block;
-        position: relative;
-      
-box-sizing: border-box;
-    }
-        .section2_right{
-        z-index: -2;
-        display: inline-block;
-              position: relative;
-            box-sizing: border-box;
-        }
+    
+/*Blue box "Study with us"*/    
+.section2_left{
+background-color: #234090;
+float: left;
+width: 35%;
+margin-left: 10%;
+
+
+   
+}
+.section2_left h1{
+color: #fff;
+}
+
+
+/*white box "contact with us"*/
+.section2_right{
+   background-color:#fff;
+   float: left;
+    position: absolute;
+    padding: 3%;
+    padding-left: 5%;
+    width: 40%;
+    position:relative;
+    box-sizing: border-box;
+}
+
     .home_section3{
-         margin-top: -2%;
+         margin-top: -1%;
         z-index: -1;
     }
 }
@@ -1135,11 +1148,10 @@ h1{
  margin-top: -180px;
  }   
 
-     footer{
+     #footer{
        
             float: right;
             width: 100%;
-        
             background-color: #234090;
             z-index: 2;
             text-align: center;
