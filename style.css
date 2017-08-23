@@ -81,8 +81,8 @@ li:last-child{
 }
 
 .navigation_ul a:active,.navigation_ul a:hover {
-    background-color: #f6f6f6;
-    color: #484848;
+    background-color: #adadad;
+    color: #f6f6f6;
 }
 
 a{
